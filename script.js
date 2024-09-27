@@ -11,10 +11,11 @@ const perguntas = [
     {
            texto: "Isso é assustador!",
           afirmacao:"afirmaçao" 
-        }
-
+        },
+        {
            texto: "Isso é maravilhoso!"
            afirmacao:"afirmaçao" 
+        }
         ]
     },
     {
@@ -22,8 +23,8 @@ const perguntas = [
         alternativas: [
             {
             texto:"Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-        afirmacao:"afirmaçao" 
-            }
+            afirmacao:"afirmaçao" 
+        },
         {
            texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
            afirmacao:"afirmaçao"
@@ -32,18 +33,20 @@ const perguntas = [
     },
     {
         enunciado: "Após a elaboração do trabalho, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
-        alternativas: [
+        alternativas: {
         {
             texto:"Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
             afirmacao:"afirmaçao"
-        }
+        {
+        },
+
            texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores."
            afirmacao:"afirmaçao"
-        ]
+        }
     },
     {
         enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
-        alternativas: [
+        alternativas: {
            texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
            afirmacao:"afirmaçao
         {
